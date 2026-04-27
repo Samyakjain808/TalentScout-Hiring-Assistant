@@ -1,0 +1,52 @@
+[
+  {
+    "candidate": {
+      "name": "Siddharth Jain",
+      "email": "siddharth.jain@gmail.com",
+      "phone": "+919876543210",
+      "experience": "3.0",
+      "position": "Full Stack Developer",
+      "location": "Mumbai, India",
+      "tech_stack": [
+        "Python",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    "answers": {
+      "Python": {
+        "Describe a project where you used Python extensively.": "I built a data processing pipeline using Python, pandas, and FastAPI to handle real-time sensor data and provide analytics via a REST API.",
+        "What are the key advantages and limitations of Python?": "Key advantages are its readability, vast library ecosystem, and multi-paradigm support. Limitations include slower execution speed compared to compiled languages and the Global Interpreter Lock (GIL) affecting multi-threading.",
+        "How do you handle debugging and testing in Python?": "For debugging, I use the built-in pdb module or logging. For testing, I primarily use pytest to write unit and integration tests, ensuring high code coverage."
+      },
+      "React": {
+        "Describe a project where you used React extensively.": "I developed a complex dashboard for a financial application using React and Redux, implementing dynamic data visualization with Recharts.",
+        "What are the key advantages and limitations of React?": "Advantages include the virtual DOM for performance, component-based architecture for reusability, and a large community. Limitations include the steep learning curve for beginners and the fact that it's just a library, requiring other tools for state management and routing.",
+        "How do you handle debugging and testing in React?": "For debugging, I use React DevTools and Chrome Inspector. For testing, I use Jest and React Testing Library to write unit tests for components and integration tests for hooks."
+      },
+      "PostgreSQL": {
+        "Describe a project where you used PostgreSQL extensively.": "I used PostgreSQL as the primary database for a multi-tenant SaaS platform, implementing complex joins, window functions, and indexing strategies to optimize query performance.",
+        "What are the key advantages and limitations of PostgreSQL?": "PostgreSQL is highly extensible, ACID compliant, and supports advanced data types like JSONB. Its limitations include being more resource-intensive than some NoSQL databases and having a complex setup for high availability.",
+        "How do you handle debugging and testing in PostgreSQL?": "For debugging, I use EXPLAIN ANALYZE to optimize queries and check server logs. For testing, I use pgTAP or write integration tests in the application layer using a test database."
+      }
+    },
+    "questions": {
+      "Python": [
+        "Describe a project where you used Python extensively.",
+        "What are the key advantages and limitations of Python?",
+        "How do you handle debugging and testing in Python?"
+      ],
+      "React": [
+        "Describe a project where you used React extensively.",
+        "What are the key advantages and limitations of React?",
+        "How do you handle debugging and testing in React?"
+      ],
+      "PostgreSQL": [
+        "Describe a project where you used PostgreSQL extensively.",
+        "What are the key advantages and limitations of PostgreSQL?",
+        "How do you handle debugging and testing in PostgreSQL?"
+      ]
+    },
+    "submitted_at": "2026-04-27T12:07:44.195827+00:00"
+  }
+]
